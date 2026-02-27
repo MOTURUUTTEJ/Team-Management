@@ -1,0 +1,56 @@
+remote: warning: See https://gh.io/lfs for more information.        
+remote: warning: File Team Management/Hackathon-Tracker/backend/node_modules/.cache/mongodb-memory-server/mongod-x64-win32-8.2.1.exe is 73.64 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB        
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+remote: error: GH013: Repository rule violations found for refs/heads/main.        
+remote: 
+remote: - GITHUB PUSH PROTECTION        
+remote:   —————————————————————————————————————————        
+remote:     Resolve the following violations before pushing again        
+remote: 
+remote:     - Push cannot contain secrets        
+remote: 
+remote:             
+remote:      (?) Learn how to resolve a blocked push        
+remote:      https://docs.github.com/code-security/secret-scanning/working-with-secret-scanning-and-push-protection/working-with-push-protection-from-the-command-line#resolving-a-blocked-push        
+remote:             
+remote:             
+remote:       —— Amazon AWS Access Key ID ——————————————————————————        
+remote:        locations:        
+remote:          - commit: 4a87c1307560d157ddcdde1a911d23673ef5c0ca        
+remote:            path: Team Management/rootkey.csv:2        
+remote:             
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.        
+remote:        https://github.com/MOTURUUTTEJ/Team-Management/security/secret-scanning/unblock-secret/3AFLXUNBZwIo9tD8hMk8h1UeAAo        
+remote:             
+remote:             
+remote:       —— Amazon AWS Secret Access Key ——————————————————————        
+remote:        locations:        
+remote:          - commit: 4a87c1307560d157ddcdde1a911d23673ef5c0ca        
+remote:            path: Team Management/rootkey.csv:2        
+remote:             
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.        
+remote:        https://github.com/MOTURUUTTEJ/Team-Management/security/secret-scanning/unblock-secret/3AFLXWhFjDIpEvXOoJKJgZrYWkI        
+remote:             
+remote:             
+remote:       —— Amazon AWS Access Key ID ——————————————————————————        
+remote:        locations:        
+remote:          - commit: 4a87c1307560d157ddcdde1a911d23673ef5c0ca        
+remote:            path: Team Management/Hackathon-Tracker/backend/.env:5        
+remote:             
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.        
+remote:        https://github.com/MOTURUUTTEJ/Team-Management/security/secret-scanning/unblock-secret/3AFLXY1AAqbRkDBjMpOW6a7TxC1        
+remote:             
+remote:             
+remote:       —— Amazon AWS Secret Access Key ——————————————————————        
+remote:        locations:        
+remote:          - commit: 4a87c1307560d157ddcdde1a911d23673ef5c0ca        
+remote:            path: Team Management/Hackathon-Tracker/backend/.env:6        
+remote:             
+remote:        (?) To push, remove secret from commit(s) or follow this URL to allow the secret.        
+remote:        https://github.com/MOTURUUTTEJ/Team-Management/security/secret-scanning/unblock-secret/3AFLXUdmZRjTDgaURlk0F84u5P3        
+remote:             
+remote: 
+remote: 
+To https://github.com/MOTURUUTTEJ/Team-Management.git
+ ! [remote rejected] main -> main (push declined due to repository rule violations)
+error: failed to push some refs to 'https://github.com/MOTURUUTTEJ/Team-Management.git'
